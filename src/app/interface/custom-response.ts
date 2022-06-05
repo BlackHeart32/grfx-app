@@ -2,7 +2,8 @@ import {Item} from "./item";
 
 export interface CustomResponse{
     timestamp: Date;
-    statusCode: number;    
+    statusCode: number;
+    status: string;    
     reason: string;
     message: string;
     developerMessage: string;

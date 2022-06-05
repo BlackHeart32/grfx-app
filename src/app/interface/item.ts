@@ -9,5 +9,6 @@ export interface Item{
     quantity: number;
     cost: number;
     price: number;
+    status: Status
     
 }
